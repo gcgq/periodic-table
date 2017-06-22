@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: yellow;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Britannic Bold";
+  padding: 10px;
+}
+
+td {
+  border: 1px solid blue;
+  width: 73.7px;
+  height: 73.7px;
+}
+
+.empty {
+  border: hidden;
+}
+
+.split {
+  margin-top: 12px;
+}
+
+.yellow {
+  background-color: yellow;
+  text-align: center;
+}
