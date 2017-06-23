@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: monospace;
 }
 
 header {
@@ -10,10 +11,16 @@ header {
   padding: 10px;
 }
 
+
+
 td {
   border: 1px solid blue;
-  width: 73.7px;
-  height: 73.7px;
+  width: 73px;
+  height: 73px;
+}
+.element td {
+  width: 100%;
+  height: auto;
 }
 
 .empty {
@@ -21,7 +28,7 @@ td {
 }
 
 .split {
-  margin-top: 12px;
+  border-spacing: 12px 0 0 0;
 }
 
 .yellow {
