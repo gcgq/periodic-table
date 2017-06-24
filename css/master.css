@@ -10,15 +10,15 @@ header {
   padding: 10px;
 }
 
-
-
 td {
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10%;
+  border: 2px solid;
   width: 73px;
   height: 73px;
 }
+
 .element td {
   width: 100%;
   height: auto;
@@ -26,10 +26,10 @@ td {
 
 .empty {
   border: hidden;
+  empty-cells: hide;
 }
 
 table.split{
-  border-spacing: 20px 0 0 0;
   margin-top: 20px;
 }
 
@@ -71,6 +71,10 @@ table.split{
   width: 100%;
   text-align: center;
   padding-bottom: 10px;
+}
+
+.element-info-tooltip table td{
+  border: none;
 }
 
 .symbol{
