@@ -70,6 +70,7 @@ table.split{
 .element-info-tooltip table{
   width: 100%;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .symbol{
