@@ -16,6 +16,7 @@ td {
   border-radius: 10%;
   border: 3px solid;
   width: 60px;
+  min-width: 30px;
   height: 60px;
 }
 
@@ -25,11 +26,12 @@ td {
 }
 
 .empty {
-  border: hidden;
+  margin: 3px;
   empty-cells: hide;
 }
 
-table.split{
+table.main, table.split{
+  margin-left:40px;
   margin-top: 20px;
 }
 
@@ -60,6 +62,7 @@ table.split{
 .element-info-tooltip {
   background-color:inherit;
   width: 120px;
+  margin-left: -40px;
   border: solid 6px ;
   border-color: inherit;
   border-radius: 10%;
@@ -88,7 +91,6 @@ table.split{
 .atomic-number{
   text-align: left;
 }
-
 
 .lanthanoid{
   background-color: SpringGreen;
