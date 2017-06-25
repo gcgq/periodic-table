@@ -34,19 +34,19 @@ table.split{
 }
 
 .d-block {
-  background-color: yellow;
+  border-color: Orange;
 }
 
 .s-block {
-  background-color: red;
+  border-color: DarkRed;
 }
 
 .p-block {
-  background-color: blue;
+  border-color: DarkBlue;
 }
 
 .f-block {
-  background-color: green;
+  border-color: DarkGreen;
 }
 
 .element:hover .element-info-tooltip{
@@ -83,4 +83,36 @@ table.split{
 
 .atomic-number{
   text-align: left;
+}
+
+
+.lanthanoid{
+  background-color: SpringGreen;
+}
+.actinoid{
+  background-color: YellowGreen;
+}
+.alkali-metal{
+  background-color: Coral;
+}
+.alkaline-earth-metal{
+  background-color: Salmon;
+}
+.transition-metal{
+  background-color: Gold;
+}
+.post-transition-metal{
+  background-color: SteelBlue;
+}
+.metalloid{
+  background-color: SlateBlue;
+}
+.other-nonmetal{
+  background-color: DarkTurquoise;
+}
+.noble-gas{
+  background-color: SkyBlue;
+}
+.na{
+  background-color: LightGray;
 }
